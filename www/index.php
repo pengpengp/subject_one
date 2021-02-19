@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CISP-PTE 认证考试</title>
+    <title>练习</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/nav.css">
      <meta charset="UTF-8">

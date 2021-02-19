@@ -1,7 +1,9 @@
 version: "3"
 services:
         web:
-            image: richarvey/nginx-php-fpm:latest
+            image: vsplate/centos_apache2_php5_mysql5:latest
+            depends_on: 
+                    - db
             restart: always
             ports:
                     - "3001:80"
@@ -9,6 +11,8 @@ services:
                     - ./www:/var/www/html
                     - ./php.ini:/usr/local/etc/php/php.ini
             links:
+                    - db
+            external_links:
                     - db
             networks:
                 - default

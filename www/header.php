@@ -1,7 +1,7 @@
 <div class="topnav">
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand text-white" href="/index.php">CISP-PTE认证考试</a>
+<a class="navbar-brand text-white" href="/index.php">练习</a>
 
   <div class=" navbar-collapse pl-2" id="navbarNav">
     <ul class="navbar-nav">
