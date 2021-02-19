@@ -1,9 +1,7 @@
 version: "3"
 services:
         web:
-            image: vsplate/centos_apache2_php5_mysql5:latest
-            depends_on: 
-                    - db
+            image:   nickistre/centos-lamp
             restart: always
             ports:
                     - "3001:80"
@@ -12,13 +10,11 @@ services:
                     - ./php.ini:/usr/local/etc/php/php.ini
             links:
                     - db
-            external_links:
-                    - db
             networks:
                 - default
         
         db:
-            image: mysql:latest
+            image: bingozhou/mysql5.7
             restart: always
             ports:
                     - "3306:3306"

@@ -7,9 +7,6 @@
 -- 服务器版本： 5.7.26
 -- PHP 版本： 7.3.4
 
---创建用户和密码并授权
-CREATE USER 'uinfo'@'%' IDENTIFIED BY 'oAds3!9a1';
-GRANT All privileges ON *.* TO 'uinfo'@'%';
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
